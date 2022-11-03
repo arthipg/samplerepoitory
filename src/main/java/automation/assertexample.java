@@ -10,6 +10,7 @@ public class assertexample {
 		
 	@Test
 	public void testAssertFunctions() {
+		//Use webdriver manager instead of system.set property
 	System.setProperty("webdriver.chrome.driver","E:\\jar\\chromedriver.exe");
 	WebDriver driver = new ChromeDriver();
 	driver.manage().window().maximize();
